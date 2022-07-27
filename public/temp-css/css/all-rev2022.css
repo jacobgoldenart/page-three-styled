@@ -1,0 +1,86 @@
+@import url(global-headfoot.css);
+@import url(module-hero.css);
+/* @import url(module-stryper.css); */
+@import url(module-buttons.css);
+@import url(module-breadcrumb.css);
+@import url(module-formfilter.css);
+/*@import "main-t3.css";*/
+/*@import "main-t2.css";*/
+/*@import ""main-t1.css?v=1.0.3"";*/
+/*@import "main-t5.css"; */
+/*   Outside t4    */
+/*@import "form.css";*/
+/*Since this only applies to t5*/
+/* Meng still working on this */
+@import url(override-local.css);
+@import url(override-print.css);
+@media (prefers-reduced-motion: reduce) {
+	/* line 46, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/all-rev2022.scss */
+	*,
+	*:before,
+	*:after {
+		transition: none !important;
+		animation: none !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* line 55, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/all-rev2022.scss */
+body {
+	min-width: 320px !important;
+	min-height: 600px !important;
+	overflow: auto;
+}
+
+/* =============================================== Browser Hacks ====================*/
+/* IE10+ and Edge hack for sidebar. Position: "sticky" is not supported */
+/* line 29, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+_:-ms-lang(x),
+.sidebar {
+	position: absolute;
+	top: auto;
+}
+
+/*Hack for other browsers other than IE 11 and below*/
+@supports not (old: ie) {
+	/* line 39, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+	.ie-browser-msg {
+		display: none;
+	}
+}
+
+/*Safari (7.1+)*/
+/* line 47, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+_::-webkit-full-page-media,
+_:future,
+:root .ie-browser-msg {
+	display: none;
+}
+
+/*Safari (from 6.1 to 10.0)*/
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+	/* line 57, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+	.ie-browser-msg {
+		display: none;
+	}
+}
+
+/*Safari (10.1+)*/
+@media not all and (min-resolution: 0.001dpcm) {
+	/* line 66, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+	.ie-browser-msg {
+		display: none;
+	}
+}
+
+/* line 71, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+.ie-browser-msg {
+	padding: 1em;
+	width: 100%;
+	max-width: 100%;
+}
+
+/* line 77, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+.ie-browser-msg a {
+	color: var(--stgr);
+}

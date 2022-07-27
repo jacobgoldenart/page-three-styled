@@ -1,0 +1,544 @@
+/** ===== meet-us-new.css and t5 ===== **/
+/* line 3, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+img#meet-us-cse-image {
+	width: 1px;
+	height: 1px;
+	margin-left: -99999px;
+}
+
+/* line 9, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article ul * {
+	list-style-type: none;
+}
+
+/* line 13, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] .container.meet-us-section {
+	width: 80%;
+	max-width: 1140px;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+}
+
+/*Jump Menu*/
+/* line 23, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article ul.link-anchor {
+	max-width: unset;
+	padding-left: 0;
+	padding-bottom: 1em;
+	/*border-bottom: 2px solid #aa985e;*/
+	margin-bottom: 2em;
+	list-style: none;
+}
+
+/* line 32, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article ul.link-anchor a {
+	display: block;
+}
+
+/*main[class*="t5-meetus-"] article ul.link-anchor:before {
+    content: "Jump To:";
+    display: flex;
+    font-weight: 600;
+    padding-top: 0;
+    padding-bottom: .5em;
+}*/
+/* local layout globals */
+/* line 46, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] .member-wrap {
+	width: 80%;
+	max-width: 56vw;
+	margin: 0 10%;
+	/*padding-top: 1em;*/
+	/*padding-bottom: 2em;*/
+	/*border-top: 1px solid #ccc;*/
+}
+
+/* line 55, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .member-wrap:first-child {
+	padding-top: 0;
+	border-top: 0;
+}
+
+/* line 60, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .img-container,
+main[class*="t5-meetus-"] article .info-container,
+main[class*="t5-meetus-"] article .contact-block,
+main[class*="t5-meetus-"] article .sec-info-block,
+main[class*="t5-meetus-"] article .office-hours {
+	margin-right: auto;
+	margin-left: auto;
+	width: 56vw;
+	max-width: 200px;
+	padding-left: 0;
+}
+
+/* line 74, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .img-container,
+main[class*="t5-meetus-"] article .info-container,
+main[class*="t5-meetus-"] article .sec-info-block,
+main[class*="t5-meetus-"] article .office-hours {
+	margin-bottom: 1em;
+}
+
+/* line 81, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .img-container img {
+	max-width: unset;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+/* global mods */
+/* line 90, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group {
+	border-top: 2px solid #aa985e;
+}
+
+/* line 94, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group:first-child {
+	margin-top: 2em;
+	border-top: 0;
+}
+
+/* line 99, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .member-wrap:last-child .group-member {
+	padding-bottom: 2em;
+}
+
+/* line 103, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group-member ul:last-child,
+main[class*="t5-meetus-"] article .group-member ul li:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* uniques */
+/* line 111, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .img-container {
+	overflow: hidden;
+	border: 1px solid #aa985e;
+	border-radius: 4px;
+	text-align: center;
+	background: #f0e1b0;
+	height: 56vw;
+	max-height: 200px;
+}
+
+/* line 121, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .btn {
+	border-radius: 4px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+/* line 127, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .btn:hover,
+main[class*="t5-meetus-"] article .btn:focus {
+	text-decoration: underline;
+	background: #f0e1b0;
+}
+
+/*
+main[class*="t5-meetus-"] article .group-member ul.btn-block li:first-child,
+main[class*="t5-meetus-"] article .group-member ul li:only-child {
+    padding-bottom: 0;   
+    margin-left: 0;
+}*/
+/*Vertical Stack*/
+/* line 142, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group-row,
+main[class*="t5-meetus-"] article .member-wrap,
+main[class*="t5-meetus-"] article .group-member ul {
+	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+/*Horizontal Stack*/
+/* line 160, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group-member ul.btn-block {
+	padding: 0;
+	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+/* line 174, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group-member,
+main[class*="t5-meetus-"] article .group-member ul.btn-block li {
+	flex-grow: 1;
+}
+
+/* line 179, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .sec-info-block {
+	/*max-width: 400px;   */
+}
+
+/* button blocks */
+/*main[class*="t5-meetus-"] article .btn-block li:nth-child(n+2){
+        min-width: 80px;
+    }
+main[class*="t5-meetus-"] article .group-member ul.btn-block li:only-child,
+main[class*="t5-meetus-"] article .group-member ul.btn-block li.btn-contact {
+    flex-grow: 1; 
+    width: 100%;
+    margin-bottom: .5em;
+}
+main[class*="t5-meetus-"] article .group-member ul.btn-block li.btn-cv {
+    margin-left: .5em;
+}
+main[class*="t5-meetus-"] article .group-member ul.btn-block li:only-child {
+    margin-bottom: 0;
+}*/
+/* line 201, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.btn {
+	display: block;
+	padding: 0.5em;
+	border: 2px solid #dad490;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	/*text-transform: capitalize;*/
+	overflow-x: hidden;
+}
+
+/*Card Group*/
+/* line 217, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group h2,
+main[class*="t5-meetus-"] article .group-member {
+	margin-top: 2em;
+}
+
+/*Card Innards*/
+/* line 224, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .job-title {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+/* line 229, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] article .group-row h3,
+main[class*="t5-meetus-"] article .job-title {
+	width: 100%;
+}
+
+/* line 234, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main[class*="t5-meetus-"] .info-block span,
+main[class*="t5-meetus-"] .contact-block span,
+main[class*="t5-meetus-"] .sec-info-block span,
+main[class*="t5-meetus-"] article .office-hours span {
+	font-weight: 600;
+}
+
+/* line 241, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+main .contact-block .email a[href*="mailto:"]:after,
+main .contact-block .cv abbr:after {
+	content: normal !important;
+}
+
+/*===========================================================================*/
+@media screen and (min-width: 540px) {
+	/* line 249, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] .meet-us-section .group-row,
+	main[class*="t5-meetus-"] .meet-us-section .member-wrap,
+	main[class*="t5-meetus-"] .meet-us-section .group-member {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		display: flex;
+	}
+	/* line 260, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] .meet-us-section .group-row,
+	main[class*="t5-meetus-"] .meet-us-section .member-wrap {
+		width: 100%;
+		max-width: unset;
+		margin: 0;
+	}
+	/* line 266, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .img-container {
+		margin-right: 1em;
+		margin-left: 0;
+		width: 40vw;
+		max-width: 160px;
+		height: 40vw;
+		max-height: 160px;
+	}
+	/* line 274, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .info-container,
+	main[class*="t5-meetus-"] article .contact-block {
+		margin-right: 0;
+		margin-left: 0;
+		width: 50vw;
+		max-width: 220px;
+	}
+	/* line 283, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .sec-info-block,
+	main[class*="t5-meetus-"] article .office-hours {
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		max-width: unset;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	/* line 295, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article ul.link-anchor {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		display: flex;
+	}
+	/* line 304, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article ul.link-anchor li {
+		margin-left: 2ch;
+	}
+	/* line 308, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] .meet-us-section .member-wrap {
+		flex-basis: 50%;
+	}
+	/* line 311, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .member-wrap:nth-child(2) {
+		padding-top: 0;
+		border-top: 0;
+	}
+	/* line 315, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] .meet-us-section .group-member {
+		padding: 0 1vw 2em;
+	}
+	/* line 318, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .img-container {
+		margin-right: 2vw;
+		max-width: 124px;
+		max-height: 124px;
+		flex-basis: 40%;
+	}
+	/* line 324, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .info-container {
+		max-width: 180px;
+		width: 20vw;
+		flex-basis: 60%;
+	}
+	/*
+main[class*="t5-meetus-"] article .btn-block {
+    max-width: 172px;
+}
+*/
+	/* line 335, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .job-title {
+		/*min-height:2em;*/
+	}
+	/* line 338, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article h3 p:not(.job-title) {
+		margin-bottom: 2em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	/* line 344, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] .meet-us-section .member-wrap {
+		flex-basis: 33%;
+		max-width: 370px;
+	}
+	/* line 350, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .member-wrap:nth-child(3) {
+		padding-top: 0;
+		border-top: 0;
+	}
+	/* line 354, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .member-wrap:nth-child(3n + 2) {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	/* line 358, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .member-wrap:nth-child(odd):last-child {
+		margin-right: 0;
+		margin-left: 8px;
+	}
+	/* line 362, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .member-wrap:nth-child(even):last-child {
+		margin-right: auto;
+		margin-left: 0;
+	}
+	/* line 366, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .group-member .img-container {
+		width: 9vw;
+		height: 9vw;
+		max-width: 144px;
+		max-height: 144px;
+		margin-right: 14px;
+		flex-basis: unset;
+	}
+	/* line 374, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"] article .group-member .info-container {
+		width: 12vw;
+		max-width: 148px;
+		margin-left: 0;
+	}
+	/* line 379, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"]
+		article
+		.group-member
+		.info-container
+		.contact-block {
+		font-size: 14px;
+		/*height: 140px;*/
+	}
+	/* line 384, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"]
+		article
+		.group-member
+		.info-container
+		.contact-block
+		.phone,
+	main[class*="t5-meetus-"]
+		article
+		.group-member
+		.info-container
+		.contact-block
+		.fax {
+		white-space: nowrap;
+	}
+	/* line 388, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+	main[class*="t5-meetus-"]
+		article
+		.group-member
+		.info-container
+		.contact-block
+		.location,
+	main[class*="t5-meetus-"] article .group-member .sec-info-block,
+	main[class*="t5-meetus-"] article .group-member .office-hours {
+		font-size: 14px;
+		white-space: word-wrap;
+		/*height: 140px;*/
+	}
+	/*
+    main[class*="t5-meetus-"] article ul.btn-block {
+        max-width: 150px;
+    }
+     main[class*="t5-meetus-"] article ul.btn-block li:nth-child(n+2){
+        min-width: 56px;
+    }
+*/
+}
+
+/* hacking angerman (workaround for long email) */
+/* line 407, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual.academic-affairs.army-rotc-home.meet-us .contact-block {
+	font-size: 80% !important;
+	overflow-x: hidden;
+}
+
+/* hacking for ABA (workaround for long location) */
+/* line 414, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual.administration-business-affairs.meet-us .contact-block {
+	font-size: 80% !important;
+	overflow-x: hidden;
+}
+
+/* line 419, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual.administration-business-affairs.financial-services.meet-us
+	.contact-block,
+.t5.t5-meetus-manual.administration-business-affairs.business-administrative-services.meet-us
+	.contact-block {
+	font-size: 73% !important;
+	overflow-x: hidden;
+}
+
+/* line 425, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual.administration-business-affairs.facilities-management.meet-us
+	.contact-block {
+	font-size: 68% !important;
+	overflow-x: hidden;
+}
+
+/* line 430, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual section#flex-section-prepend {
+	margin-bottom: 2em;
+}
+
+/***************************************** 
+ .meeting-link style 
+ *****************************************/
+/* Copied from software catalog pills */
+/* line 440, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual ul.meeting-links li {
+	background-color: #e8e4d4;
+	color: #1d573d;
+	padding: 0.4em 1em;
+	padding-bottom: 0.4em;
+	font-size: 0.8em;
+	text-align: center;
+	border-radius: 8px;
+	width: min-content;
+	flex-basis: content;
+	margin-right: 0.4em;
+	margin-top: 0.4em;
+	display: inline-flex;
+	cursor: pointer;
+	flex: 1 0;
+	white-space: nowrap;
+	justify-content: center;
+}
+
+/* line 459, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual ul.meeting-links li:hover {
+	text-decoration: none;
+}
+
+/***************************************** 
+ .meeting-link style 
+ *****************************************/
+/* Copied from software catalog pills */
+/* line 469, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual ul.meeting-links li {
+	background-color: #e8e4d4;
+	color: #1d573d;
+	padding: 0.4em 1em !important;
+	font-size: 0.8em;
+	text-align: center;
+	border-radius: 8px;
+	width: min-content;
+	flex-basis: content;
+	margin-right: 0.4em;
+	margin-top: 0.4em;
+	display: inline-flex;
+	cursor: pointer;
+	flex: 1 0;
+	white-space: nowrap;
+	justify-content: center;
+}
+
+/* line 487, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual ul.meeting-links li a:hover {
+	text-decoration: none;
+}
+
+/* line 491, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/meet-us-new.scss */
+.t5.t5-meetus-manual ul.meeting-links {
+	padding-left: unset;
+}
+
+/*# sourceMappingURL=meet-us-new.css.map */

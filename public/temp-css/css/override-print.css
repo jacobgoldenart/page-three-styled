@@ -1,0 +1,360 @@
+@media print {
+  /* line 2, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .container,
+  .jumbotron {
+    padding: 0;
+  }
+  /* line 6, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  body {
+    margin: 1in .5in 2in;
+    text-align: left;
+    width: 100%;
+    float: none;
+    font-size: 13pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.2;
+    background: #fff !important;
+    color: #000;
+    max-width: 8in;
+  }
+  /* line 19, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  h1,
+  h1 span,
+  h2 span {
+    margin-top: 24pt;
+    font-size: 24pt;
+  }
+  /* line 26, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  h2 {
+    font-size: 20pt;
+    margin-top: 24pt;
+  }
+  /* line 30, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  h1.d-none,
+  h3,
+  h4 {
+    font-size: 18pt;
+    margin-top: 24pt;
+  }
+  /* line 36, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  ul,
+  ol {
+    list-style: square;
+    margin-left: 18pt;
+    margin-bottom: 20pt;
+  }
+  /* line 43, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  p,
+  li {
+    line-height: 1.6em;
+  }
+  /* Links */
+  /* line 50, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a:link,
+  a:visited,
+  a {
+    background: transparent !important;
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+  }
+  /* line 59, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a {
+    text-decoration: none;
+  }
+  /* line 62, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a:after {
+    text-decoration: none;
+    color: #777;
+    font-weight: 300;
+  }
+  /* ============================================ */
+  /* Specials */
+  /* line 70, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  header.bg-image-full {
+    padding: 1em 0;
+  }
+  /*header.bg-image-full * {*/
+  /*	display: inline-block ;*/
+  /*	margin: 0 ;*/
+  /*}*/
+  /* line 77, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  header.bg-image-full h1 {
+    font-size: 32pt;
+  }
+  /* line 80, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  header.bg-image-full h1 {
+    font-size: 28pt;
+  }
+  /* line 84, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  address {
+    font-style: normal;
+  }
+  /* line 87, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  address a {
+    text-decoration: none;
+    color: #000;
+  }
+  /* 
+section[aria-labelledby="sac-state-news-section-header"] {
+	background: #fff  ;
+	padding-top:24pt ;
+	border-top: 2px solid #333 ;
+	margin-top: 24pt ;
+}
+ */
+  /* line 99, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  main {
+    position: relative;
+    padding-bottom: 3em;
+  }
+  /* ============================================ */
+  /*
+Hide Screen Only
+ */
+  /* line 108, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  nav:not(.degrees),
+  iframe,
+  object,
+  video,
+  audio,
+  button,
+  form,
+  header.bg-image-full br,
+  svg,
+  .skip-nav,
+  .d-none:not(h1),
+  .ie-browser-msg,
+  p[role="navigation"],
+  #marquee-feed,
+  #news-feed,
+  article *[aria-hidden="true"],
+  .img-wrapper,
+  section[aria-labelledby="sac-state-news-section-header"],
+  section[aria-label="calendar-feed-section"],
+  section[aria-labelledby="department-grid-header"],
+  section[aria-labelledby="flex-section-header"] img,
+  ul[aria-labelledby="campus-social-links"],
+  div[aria-labelledby="compliance-links"],
+  ul.link-anchor {
+    position: absolute;
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    white-space: nowrap;
+  }
+  /* line 140, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  nav.degrees div {
+    padding: 0 0 1em 0;
+    display: list-item;
+    margin-left: 8%;
+    list-style: square;
+  }
+  /* line 146, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  footer {
+    display: flex;
+    padding-top: 2em;
+    border-top: 1px solid #ccc;
+  }
+  /* line 151, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  footer img {
+    display: none;
+  }
+  /* line 155, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  section.quicklinks-section,
+  .vcard h2.d-none {
+    display: block;
+  }
+  /* line 159, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a,
+  .text-light {
+    color: #333;
+  }
+  /* Page Breaks */
+  /* line 165, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  /* line 176, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  img {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
+    break-after: avoid;
+  }
+  /* line 182, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  table,
+  pre,
+  a,
+  blockquote {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  /* line 189, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  ul,
+  ol,
+  dl {
+    page-break-before: avoid;
+    break-before: avoid;
+  }
+  /* Greyscale Images */
+  /* line 199, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  img,
+  svg {
+    filter: grayscale(100%);
+  }
+  /* Link Output */
+  /* line 208, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a[href$=".html"]:after {
+    content: " (https://www.csus.edu/" attr(href) ") ";
+    text-decoration: none;
+  }
+  /* line 212, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a[href^=http]:after {
+    content: " (" attr(href) ") ";
+    text-decoration: none;
+  }
+  /* line 216, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  :not(footer) abbr[title]:after {
+    content: " (" attr(title) ")";
+    text-decoration: none;
+  }
+  /* exceptions */
+  /* line 223, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t2.page-colleges-majors a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+    text-decoration: none;
+  }
+  /*.t2.page-colleges-majors .flex-section a[href^="../"]:after,*/
+  /* line 228, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t2.page-colleges-majors .flex-section a[href$="index.html"]:after {
+    content: " (https://www.csus.edu/college/" attr(href) ")";
+    text-decoration: none;
+  }
+  /* line 232, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t3[class^="page"] .side-nav h2 {
+    content: "Unless otherwise stated, all links below begin with https://www.csus.edu/college/art-letters/";
+  }
+  /* line 238, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  /* line 247, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  pre {
+    white-space: pre-wrap;
+  }
+  /* line 250, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  pre,
+  blockquote {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+*/
+  /* line 261, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  thead {
+    display: table-header-group;
+  }
+  /* line 264, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  /* line 269, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  p,
+  h1,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+    margin-bottom: 12pt;
+  }
+  /* line 277, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  /*Additional For Meet Us */
+  /* line 286, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article .group {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 290, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article .group h2 {
+    font-size: 24pt;
+    flex-basis: 100%;
+    page-break-after: avoid;
+    page-break-before: always;
+    break-after: avoid;
+    break-before: always;
+  }
+  /* line 298, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article .group-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* line 303, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article .group-row .member-wrap {
+    flex: 1 1 50%;
+  }
+  /* line 306, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article div.group-member {
+    padding: 0 .25in .25in;
+    page-break-inside: avoid;
+    page-break-before: avoid;
+    page-break-after: always;
+    break-inside: avoid;
+    break-before: avoid;
+    break-after: always;
+  }
+  /* line 315, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article div.group-member h3 {
+    page-break-before: always;
+    break-before: always;
+    margin: 0;
+  }
+  /* line 320, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article div.group-member .job-title {
+    margin-top: 0;
+    line-height: 1.3;
+    min-height: initial;
+  }
+  /* line 325, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article div.group-member ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /* line 330, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article .img-container {
+    margin: 0 0 .5em;
+  }
+  /* line 333, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-print.scss */
+  .t5.meet-us article .img-container img {
+    max-height: 175px;
+  }
+}
+
+/*# sourceMappingURL=override-print.css.map */

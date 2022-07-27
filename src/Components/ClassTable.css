@@ -1,0 +1,22 @@
+/* .class-info-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2rem;
+    flex-wrap: wrap;
+    flex-basis: 33.333%;
+}
+
+.class-info-exp p{
+    margin-left: 2rem;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:  rgb(226, 223, 223);
+} */

@@ -1,0 +1,83 @@
+/*External Links*/
+/* line 67, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href^="mailto:"]:after {
+  content: " EMAIL";
+}
+
+/* line 74, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href*="qualtrics"]:after,
+#root a[href*="jotform"]:after,
+#root a[href*="signup"]:after,
+#root a[href*="wufoo"]:after,
+#root a[href*="forms.office"]:after,
+#root a[href*="=GIVEGiving"]:after,
+#root a[href*="google.com/forms"]:after {
+  content: " FORM";
+}
+
+/*Video*/
+/* line 101, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href^="https://www.vimeo"]:after,
+#root a[href^="https://www.youtube"]:after,
+#root a[href^="https://www.mediasite"]:after,
+#root a[href^="https://www.panopto"]:after
+{
+  content: " WATCH";
+}
+
+/* Audio */
+/* line 121, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href^="https://www.spotify"]:after
+{
+  content: " LISTEN";
+}
+
+/*Download*/
+/* line 130, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href$=".mp4"]:after {
+  content: " MP4";
+}
+
+/* line 136, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href$=".doc"]:after,
+#root a[href$=".docx"]:after {
+  content: " DOC";
+}
+
+/* line 142, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href$=".pdf"]:after {
+  content: " PDF";
+}
+
+/* line 148, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href$=".ppt"]:after {
+  content: " PPT";
+}
+
+/* line 154, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+#root a[href$=".xls"]:after,
+#root a[href$=".xlsx"]:after {
+  content: " XLS";
+}
+
+/* ================ Utility ======================= */
+/* line 225, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/override-local.scss */
+div a,
+li a,
+p a,
+.button li a,
+.collapse,
+.collapse.show,
+.hex-row .hex,
+li.item,
+.side-nav li a {
+  -moz-transition: background 0.5s ease, background-color 0.5s ease,
+    fill 0.5s ease, color 0.5s ease, box-shadow 1.5s ease, text-shadow 0.5s ease,
+    background-image 0.5s ease, border-color 0.5s ease;
+  -webkit-transition: background 0.5s ease, background-color 0.5s ease,
+    fill 0.5s ease, color 0.5s ease, box-shadow 0.5s ease, text-shadow 0.5s ease,
+    background-image 0.5s ease, border-color 0.5s ease;
+  transition: background 0.5s ease, background-color 0.5s ease, fill 0.5s ease,
+    color 0.5s ease, box-shadow 0.5s ease, text-shadow 0.5s ease,
+    background-image 0.5s ease, border-color 0.5s ease;
+}

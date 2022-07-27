@@ -1,0 +1,41 @@
+/* ========================= Main Button ======================= */
+/* line 5, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-buttons.scss */
+a[class*="button"] {
+	display: inline-block;
+	padding: 0.7em 3%;
+	color: var(--stgr);
+	background: rgba(255, 255, 255, 0.5);
+	border: 2px solid var(--wgo);
+	border-radius: 4px;
+	width: 100%;
+	margin: 1em 0;
+	text-align: center;
+	text-decoration: none;
+	text-align: center;
+}
+
+a.button-default:hover,
+a.button-default:focus,
+a.link-button:hover,
+a.link-button:focus {
+	color: var(--ssgr);
+	background: var(--wgo20a);
+	text-decoration: underline;
+}
+
+a.button-default:visited,
+a.link-button:visited {
+	color: var(--graydk);
+	border-color: var(--graymd);
+}
+
+[id="csus-global-navbar"] a.button-cta {
+	background: var(--ssgr);
+	color: var(--white);
+	border-radius: 2rem;
+}
+[id="csus-global-navbar"] a.button-cta:hover,
+[id="csus-global-navbar"] a.button-cta:focus {
+	background: var(--stgr);
+	color: var(--white);
+}

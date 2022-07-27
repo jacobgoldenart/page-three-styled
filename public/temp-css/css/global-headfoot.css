@@ -1,0 +1,25 @@
+@import url(unset-bootstrap.css);
+@import url(type-base.css);
+@import url(color-base.css);
+@import url(header-footer.css);
+@import url(module-breadcrumb.css);
+@import url(override-print.css);
+@media (prefers-reduced-motion: reduce) {
+	/* line 8, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+	*,
+	*:before,
+	*:after {
+		transition: none !important;
+		animation: none !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* line 17, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/global-headfoot.scss */
+body {
+	min-width: 320px !important;
+	min-height: 600px !important;
+	overflow: auto;
+}
+
+/*# sourceMappingURL=global-headfoot.css.map */

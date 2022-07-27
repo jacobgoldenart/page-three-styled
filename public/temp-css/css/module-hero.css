@@ -1,0 +1,30 @@
+/* =========== HERO ================== */
+header {
+	//display: flex;
+	position: relative;
+}
+
+header div {
+	padding: 2rem 5% 1rem;
+	max-width: calc(1400px - 8%);
+	margin: auto;
+}
+header h2 {
+	font-size: 2rem;
+	text-align: left;
+}
+@media screen and (min-width: 660px) {
+	header h2 {
+		font-size: 3rem;
+		font-weight: 300;
+	}
+}
+@media screen and (min-width: 1200px) {
+	header div {
+		max-width: 1400px;
+		margin: auto;
+	}
+	header h2 {
+		font-size: 4rem;
+	}
+}

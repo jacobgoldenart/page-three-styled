@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* line 1, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+:root {
+  --leading: 1.15;
+}
+
+/* line 5, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-feature-settings: "clig", "salt";
+  font-feature-settings: "cliga", "salt";
+}
+
+/* line 11, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+abbr {
+  -webkit-font-feature-settings: "cpsp";
+  font-feature-settings: "cpsp";
+  /* applies proper spacing to all caps */
+}
+
+/* line 15, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+abbr::after {
+  content: " ";
+  display: inline-block;
+  width: .5ch;
+}
+
+/* line 22, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+ul,
+ol,
+ul ul,
+ol ul {
+  padding-left: 0;
+}
+
+/* line 29, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+p:empty {
+  display: none;
+}
+
+/*End Reboot Reset*/
+/* line 35, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h1 {
+  font-size: 2.4rem;
+  line-height: var(--leading);
+}
+
+/* line 38, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h1 span {
+  font-size: 1.5rem;
+  display: block;
+}
+
+/* line 44, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h2,
+h1 span {
+  font-size: 1.625rem;
+  line-height: var(--leading);
+}
+
+/* line 50, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.quad-auto-nav h2,
+.button h2,
+.sac-state-events-section h2 {
+  font-size: 1.5rem;
+  line-height: var(--leading);
+}
+
+/* line 57, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h3,
+.socialbox a,
+a.hex {
+  font-size: 1.3rem;
+  line-height: var(--leading);
+  max-width: 75ch;
+  clear: both;
+}
+
+/* line 66, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h4,
+.degrees a {
+  font-size: 1.15rem;
+  line-height: var(--leading);
+  max-width: 75ch;
+  clear: both;
+}
+
+/* line 74, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+p,
+li {
+  font-size: 1rem;
+  line-height: var(--leading);
+  max-width: 75ch;
+}
+
+/* line 81, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.eventdate {
+  font-size: .875rem;
+}
+
+/* line 85, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h1,
+h3,
+#navbar-primary ul[role="menubar"] a,
+.eventdate,
+h4 {
+  line-height: var(--leading);
+  font-weight: 600;
+}
+
+/* line 94, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h2,
+h4 {
+  line-height: var(--leading);
+  font-weight: 500;
+}
+
+/* line 100, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+body,
+p,
+li,
+h1 span {
+  line-height: var(--leading);
+  font-weight: 400;
+}
+
+/* line 108, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+h1 span,
+[id="spotlight"] h2,
+.sac-state-events-section h2,
+[id="horentcomb-header"] h2 {
+  font-weight: 300;
+}
+
+/* ============= Sublist Overrides ================ */
+/* line 132, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+main ol ul,
+main :not(.t5-meetus-manual) article * ul {
+  padding-left: 1em;
+  list-style-type: initial;
+}
+
+/* line 137, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+main ul ul {
+  list-style-type: circle;
+}
+
+/* line 140, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+main :not(.t5-meetus-manual) article * ol {
+  list-style-type: lower-alpha;
+}
+
+/* line 143, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+main main.t5[class*="404s"] section.links-well div ul ul {
+  margin-top: 0;
+}
+
+/* line 149, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4.page-my-sac-state .box3 li {
+  margin-bottom: 0;
+}
+
+/* line 153, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+main[class*="404"].t5 article .col-md-12 h2 {
+  max-width: unset;
+  margin-bottom: 1em;
+}
+
+/* =========================== BlockQuote ======================= */
+/* line 165, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4 blockquote,
+.t5 blockquote {
+  position: relative;
+  margin-top: 2rem;
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 173, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4 blockquote *,
+.t5 blockquote * {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  margin-bottom: 0.25rem;
+}
+
+/* line 179, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4 blockquote p,
+.t5 blockquote p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  padding-left: 2%;
+  color: #008554;
+  text-indent: -.5ch;
+}
+
+/* line 185, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4 blockquote p:last-child,
+.t5 blockquote p:last-child {
+  font-size: 1rem;
+  color: #333;
+  text-align: right;
+  padding-right: 5%;
+  text-indent: 0;
+}
+
+/* line 192, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4 blockquote p:last-child::before,
+.t5 blockquote p:last-child::before {
+  display: inline;
+  content: "— ";
+}
+
+/* line 198, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+.t4 blockquote p + p,
+.t5 blockquote p + p {
+  text-indent: 8%;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 209, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+  .t4 main[class*="one-column"] :not(.border) blockquote,
+  .t5 main[class*="one-column"] :not(.border) blockquote {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  /* line 212, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+  .t4 main[class*="one-column"] :not(.border) blockquote::before, .t4 main[class*="one-column"] :not(.border) blockquote::after,
+  .t5 main[class*="one-column"] :not(.border) blockquote::before,
+  .t5 main[class*="one-column"] :not(.border) blockquote::after {
+    content: "“";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    font-size: 14rem;
+    line-height: .75;
+    font-family: Georgia;
+    /* z-index: 0; */
+    color: rgba(196, 181, 129, 0.35);
+  }
+  /* line 225, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/type-base.scss */
+  .t4 main[class*="one-column"] :not(.border) blockquote::after,
+  .t5 main[class*="one-column"] :not(.border) blockquote::after {
+    content: "”";
+    top: unset;
+    left: unset;
+    bottom: -2rem;
+    right: 0;
+    line-height: 0;
+  }
+}
+
+/*# sourceMappingURL=type-base.css.map */

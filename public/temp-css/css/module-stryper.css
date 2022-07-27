@@ -1,0 +1,80 @@
+/* ====== stripe bottom ====== */
+/* line 3, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-stryper.scss */
+.bg-image-full:after,
+.sac-breadcrumb:after,
+.quicklinks-section:after,
+.sac-state-events-section:after,
+[id="connect"]:after,
+.jumbotron:after,
+article:after,
+main.t5:after,
+.un-headlines-section:after,
+.galleries #quadrants .col-md-6:nth-of-type(2n):after,
+.gallery-featured-section:after,
+.alert-bar:after,
+[id="spotlight"]:after,
+[id^="hornetcomb-header"]:after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  padding: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  z-index: 10;
+}
+
+/*stripe start purple */
+/* line 32, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-stryper.scss */
+.bg-image-full:after,
+[id="connect"]:after,
+main.t5:after,
+.un-headlines-section:after,
+.galleries #quadrants .col-md-6:nth-of-type(2n):after,
+.gallery-featured-section:after,
+main > .alert-bar:after,
+article > .quicklinks-section:after,
+[id^="hornetcomb-header"] + [id="spotlight"]:after {
+  background: -webkit-gradient(linear, right top, left top, color-stop(25%, #008453), color-stop(40%, #ce7712), color-stop(60%, #fafa43), to(#380042));
+  background: linear-gradient(270deg, #008453 25%, #ce7712 40%, #fafa43 60%, #380042 100%);
+}
+
+/*start green */
+/* line 50, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-stryper.scss */
+article:after,
+.sac-breadcrumb:after,
+main > .quicklinks-section:after,
+main > .sac-state-events-section:after,
+[id^="hornetcomb-header"]:after {
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #008453), color-stop(40%, #ce7712), color-stop(60%, #fafa43), to(#380042));
+  background: linear-gradient(90deg, #008453 25%, #ce7712 40%, #fafa43 60%, #380042 100%);
+}
+
+/*stripe top */
+/* line 65, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-stryper.scss */
+.galleries.t4 #quadrants .col-md-6:first-of-type:before,
+.my-inside #quadrants:before,
+.galleries .section2:before {
+  height: 4px;
+  top: 0;
+  bottom: unset;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 74, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-stryper.scss */
+  .galleries.t4 #quadrants .col-md-6:nth-of-type(2n):after,
+  .galleries.t4 #quadrants .col-md-6:first-of-type:before {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  /* line 81, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-stryper.scss */
+  .t3.page-colleges-majors .quicklinks-section:before,
+  .t3.page-admissions .bg-image-full:after,
+  .t3.page-class-schedules .bg-image-full:after {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=module-stryper.css.map */

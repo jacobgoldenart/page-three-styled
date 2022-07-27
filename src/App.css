@@ -1,0 +1,100 @@
+#root,
+article ul,
+aside ul,
+article section div,
+footer div,
+form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	padding: 0;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+article,
+header[role="banner"] h1,
+aside.sac-breadcrumb ul {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+form {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+article > ul,
+section div > ul,
+aside ul {
+	list-style-type: none;
+}
+
+header[role="banner"] h1,
+aside li,
+footer p,
+form {
+	padding: 1rem;
+}
+
+header[role="banner"] h1 {
+	padding: 3rem 0 2rem;
+}
+
+article > footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+article > footer div {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 65%;
+	flex: 0 0 65%;
+}
+
+p {
+	max-width: 65ch;
+}
+
+[aria-hidden="true"] {
+	padding: 0;
+	margin: 0;
+	text-indent: -9999px;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+}
+article h3 {
+	flex: 1 0 5%;
+	margin: 0;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}

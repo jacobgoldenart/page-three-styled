@@ -1,0 +1,259 @@
+aside.breadcrumb {
+	display: flex;
+	position: relative;
+	background-color: var(--white);
+	position: relative;
+	gap: 1ch;
+	/* padding: 0; */
+	/* margin: 0; */
+	/* max-width: unset; */
+}
+
+aside.breadcrumb ul {
+	/* padding: 2em 5% 2rem; */
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+aside.breadcrumb ul li a {
+	padding: 1rem 2ch 1rem 0;
+}
+
+/* ========= */
+header div,
+aside.breadcrumb,
+[class*="page-schedule-term"] {
+	width: 90%;
+	max-width: calc(1400px - 8%);
+	padding: 0 0 2rem 0;
+	background-repeat: no-repeat;
+	background-attachment: top;
+	margin: 0 auto;
+}
+header div {
+	margin-top: 4rem;
+}
+/* @media screen and (min-width:1400px){
+header div,
+aside.breadcrumb,
+[class*="page-schedule-term"] {
+margin: 0 auto;
+}
+} */
+
+/*
+aside.breadcrumb {
+	display: flex;
+	position: relative;
+	background-color: var(--white);
+	position: relative;
+	gap: 1ch;
+	padding: 0;
+	margin: 0;
+	max-width: unset;
+}
+
+aside.breadcrumb ul {
+	padding: 2em 5%;
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+aside.breadcrumb ul li a {
+	padding: 0 2ch 0 0;
+} */
+[class*="page-schedule-term"] {
+	/* margin: 0 auto; */
+	/* padding: 0 0 2rem 0; */
+	/* background-repeat: no-repeat;
+	background-attachment: top; */
+}
+[class*="page-schedule-term"] article section {
+	max-width: calc(1400px - 8%);
+	position: relative;
+	border: 2px solid var(--hgob);
+	border-radius: 8px;
+	margin: 0 5%;
+	background: var(--white);
+}
+[class*="page-schedule-term"] article ul {
+	flex: 1;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0.5rem 1ch;
+}
+
+[class*="page-schedule-term"] article li {
+	flex-basis: min-content;
+	display: flex;
+	flex-wrap: wrap;
+	white-space: nowrap;
+	align-content: flex-start;
+	margin: 0.5rem 1ch;
+	border-radius: 4px;
+	    max-width: 230px;
+    overflow: hidden;
+}
+[class*="page-schedule-term"] article > section > div h3 {
+	padding: 1rem 5%;
+	flex: 0 0 5%;
+	max-width: 50px;
+}
+[class*="page-schedule-term"] article li a {
+	display: block;
+	background: var(--white);
+	padding: 1rem;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+/* ====== Visual Styling ===== */
+
+form.search-catalog {
+	border: 2px solid var(--hgob);
+	border-radius: 8px;
+	overflow:hidden;
+	padding: 2em 10%;
+	width: 90%;
+	margin: 1rem auto 2rem;
+	background: var(--wgolt);
+}
+
+form.search-catalog input,
+form.search-catalog select {
+	height: calc(2.25rem + 1em);
+	width: 100%;
+	padding-left: 2ch;
+	border-radius: 8px;
+	border: 2px solid var(--hgob);
+}
+
+form.search-catalog select {
+	margin-top: 1em;
+	width: 100%;
+}
+
+[class*="page-schedule-term"] article > section > div h3 {
+	border-right: 1px solid var(--hgob);
+	border-bottom: 1px solid var(--hgob);
+}
+[class*="page-schedule-term"] article > section > div ul {
+	border-bottom: 1px solid var(--hgob);
+}
+[class*="page-schedule-term"] article > section > div:nth-of-type(even) {
+	background: var(--wgo);
+}
+[class*="page-schedule-term"] article > section > div:nth-of-type(even) h3 {
+	background: var(--wgomd);
+}
+[class*="page-schedule-term"] article > section > div:nth-of-type(odd) ul {
+	background: var(--wgomd);
+}
+
+[class*="page-schedule-term"] article li a {
+	display: block;
+	background: var(--white);
+	padding: 1rem;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-decoration: none;
+	width: 100%;
+	transition: all 1s ease-in-out;
+}
+[class*="page-schedule-term"] article li a:hover,
+[class*="page-schedule-term"] article li a:focus {
+	border: 1px solid var(--stgr);
+	background: var(--wgolt)
+	text-decoration: underline;
+}
+@media screen and (min-width: 640px) {
+	[class*="page-schedule-term"] article li {
+	    max-width: unset;
+    overflow: unset;
+}
+}
+
+@media screen and (min-width: 800px) {
+	form.search-catalog fieldset {
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		gap: 2ch;
+	}
+	form.search-catalog input {
+		flex: 0 0 50%;
+	}
+	form.search-catalog select {
+		flex: 0 0 50%;
+		margin-right: 0;
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	form.search-catalog {
+		padding: 2rem 5%;
+	}
+form.search-catalog input {
+	display:inline-flex;
+		flex: 1;
+	}
+	form.search-catalog select {
+		flex: 0 0 30%;
+		min-width: max-content;
+	}
+}
+
+/*# sourceMappingURL=service-catalog.css.map */
+
+
+
+
+/*
+
+[class*="page-schedule-term"].fall {
+ /* background: url(https://www.csus.edu/newcsus2019-global-assets/_internal/images/schedule-app/fall-d.jpg); */
+	/* background-color: #c6671d; */
+/* }
+[class*="page-schedule-term"].fall article section,
+[class*="page-schedule-term"].fall form.search-catalog,
+[class*="page-schedule-term"].fall form.search-catalog input,
+[class*="page-schedule-term"].fall form.search-catalog select,
+[class*="page-schedule-term"].fall article > section > div h3,
+[class*="page-schedule-term"].fall article > section > div ul {
+border-color: #c6671d;
+}
+[class*="page-schedule-term"].fall form.search-catalog {
+	background-color: var(--hgoblt);
+}
+[class*="page-schedule-term"].spring { */
+ /* background: url(https://www.csus.edu/newcsus2019-global-assets/_internal/images/schedule-app/fall-d.jpg); */
+	/* background-color: #d6dc34; */
+/* }
+[class*="page-schedule-term"].spring article section,
+[class*="page-schedule-term"].spring form.search-catalog,
+[class*="page-schedule-term"].spring form.search-catalog input,
+[class*="page-schedule-term"].spring form.search-catalog select,
+[class*="page-schedule-term"].spring article > section > div h3,
+[class*="page-schedule-term"].spring article > section > div ul {
+	border-color: #d6dc34;
+}
+[class*="page-schedule-term"].spring form.search-catalog {
+	background-color: #f0f390;
+}
+[class*="page-schedule-term"].winter { */
+ /* background: url(https://www.csus.edu/newcsus2019-global-assets/_internal/images/schedule-app/fall-d.jpg); */
+	/* background-color: #4e58a7; */
+/* }
+[class*="page-schedule-term"].winter form.search-catalog {
+	background-color: #b5bbec;
+}
+[class*="page-schedule-term"].winter article section,
+[class*="page-schedule-term"].winter form.search-catalog,
+[class*="page-schedule-term"].winter form.search-catalog input,
+[class*="page-schedule-term"].winter form.search-catalog select,
+[class*="page-schedule-term"].winter article > section > div h3,
+[class*="page-schedule-term"].winter article > section > div ul {
+	border-color: #4e58a7;
+} */

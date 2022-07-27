@@ -1,0 +1,217 @@
+/* line 1, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+:root {
+	/* solid colors dicgidg */
+	--rwgr: #043124;
+	/* redwood green */
+	--ssgr: #004e38;
+	/* sac state green */
+	--stgr: #008554;
+	/* stinger green */
+	--spgr: #55ba47;
+	/* spruce green */
+	--gvgr: #e6ea85;
+	/* guava green */
+	--hgo: #e6b711;
+	/* Hornet Gold */
+	--hgob: #fac606;
+	/* Hornet Gold Bright */
+	--hgobmd: #fcdc69;
+	/* Hornet Gold Bright 30% tint */
+	--hgoblt: #fde89b;
+	/* Hornet Gold Bright 10% tint */
+	--wgo: #dad490;
+	/* Web Gold */
+	--wgomd: #e8e5bc;
+	/* Web Gold 30% tint */
+	--wgolt: #f2f0d9;
+	/* Web Gold 10% tint */
+	--brz: #cfb668;
+	/* Bronze */
+	--brzdk: #524829;
+	/* Dark Bronze */
+	--white: #fff;
+	/* White */
+	--graymin: #ddd;
+	/* Light Gray */
+	--graylt: #aaa;
+	/* Light Gray */
+	--graymd: #777;
+	/* Medium Gray */
+	--graydk: #333;
+	/* Dark Gray */
+	--black: #000;
+	/* Black */
+	/* redwood green opacity variables */
+	--rwgr80a: rgba(4, 49, 36, 0.8);
+	--rwgr60a: rgba(4, 49, 36, 0.6);
+	--rwgr40a: rgba(4, 49, 36, 0.4);
+	--rwgr20a: rgba(4, 49, 36, 0.2);
+	--rwgr00a: rgba(4, 49, 36, 0);
+	/* sac state green opacity variables */
+	--ssgr80a: rgba(0, 78, 56, 0.8);
+	--ssgr60a: rgba(0, 78, 56, 0.6);
+	--ssgr40a: rgba(0, 78, 56, 0.4);
+	--ssgr20a: rgba(0, 78, 56, 0.2);
+	--ssgr00a: rgba(0, 78, 56, 0);
+	/* stinger green opacity variables */
+	--stgr80a: rgba(0, 133, 84, 0.8);
+	--stgr60a: rgba(0, 133, 84, 0.6);
+	--stgr40a: rgba(0, 133, 84, 0.4);
+	--stgr20a: rgba(0, 133, 84, 0.2);
+	--stgr00a: rgba(0, 133, 84, 0);
+	/* spruce green opacity variables */
+	--spgr80a: rgba(0, 133, 84, 0.8);
+	--spgr60a: rgba(0, 133, 84, 0.6);
+	--spgr40a: rgba(0, 133, 84, 0.4);
+	--spgr20a: rgba(0, 133, 84, 0.2);
+	--spgr00a: rgba(0, 133, 84, 0);
+	/* hornet gold opacity variables */
+	--hgob80a: rgba(250, 198, 6, 0.8);
+	--hgob60a: rgba(250, 198, 6, 0.6);
+	--hgob40a: rgba(250, 198, 6, 0.4);
+	--hgob20a: rgba(250, 198, 6, 0.2);
+	--hgob00a: rgba(250, 198, 6, 0);
+	/* web gold opacity variables */
+	--wgo80a: rgba(218, 212, 144, 0.8);
+	--wgo60a: rgba(218, 212, 144, 0.6);
+	--wgo40a: rgba(218, 212, 144, 0.4);
+	--wgo20a: rgba(218, 212, 144, 0.2);
+	--wgo00a: rgba(218, 212, 144, 0);
+	/* black opacity variables */
+	--black80a: rgba(0, 0, 0, 0.8);
+	--black60a: rgba(0, 0, 0, 0.6);
+	--black40a: rgba(0, 0, 0, 0.4);
+	--black20a: rgba(0, 0, 0, 0.2);
+	--black00a: rgba(0, 0, 0, 0);
+	/* white opacity variables */
+	--white80a: rgba(255, 255, 255, 0.8);
+	--white60a: rgba(255, 255, 255, 0.6);
+	--white40a: rgba(255, 255, 255, 0.4);
+	--white20a: rgba(255, 255, 255, 0.2);
+	--white00a: rgba(255, 255, 255, 0);
+	/* effects */
+	--hero-dropshadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	--spotlt: rgb(230, 234, 133);
+	--spotbt: #ffffbb;
+}
+
+/* Unset from BS _reboot.scss to remove flash of color on load */
+/* line 100, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover {
+	color: unset;
+}
+
+/* line 106, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+	color: unset;
+}
+
+/* line 120, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+p a,
+:not(.sac-breadcrumb) a,
+:not(.side-nav) a,
+:not(.nav) a,
+td a {
+	text-decoration: underline;
+}
+
+/* line 122, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+p a:hover,
+p a:focus,
+:not(.sac-breadcrumb) a:hover,
+:not(.sac-breadcrumb) a:focus,
+:not(.side-nav) a:hover,
+:not(.side-nav) a:focus,
+:not(.nav) a:hover,
+:not(.nav) a:focus,
+td a:hover,
+td a:focus {
+	text-decoration: none;
+}
+
+/* line 131, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+h2,
+h3,
+a {
+	color: var(--ssgr);
+}
+
+/* line 137, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+a:hover,
+a:focus,
+h1,
+h2,
+blockquote p {
+	color: var(--stgr);
+}
+
+/* line 145, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+p {
+	color: var(--graydk);
+}
+
+/* line 149, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+a:visited,
+.navbar-default a svg {
+	color: var(--graymd);
+}
+
+/* line 154, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+.nav-link {
+	color: var(--black);
+}
+
+/* line 159, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+.navbar-default a {
+	color: var(--stgr);
+}
+
+/* line 161, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+.navbar-default a:hover,
+.navbar-default a:focus,
+.navbar-default a:visited {
+	color: var(--ssgr);
+}
+
+/* line 172, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+main:not(.t1) header h1 {
+	color: var(--white);
+}
+
+/* line 174, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+main:not(.t1) header h1 span {
+	color: var(--wgo);
+}
+
+/* line 178, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+main:not(.t1) header h2 {
+	color: var(--wgolt);
+	/* Web Gold 10% tint */
+}
+
+/* ================== Effects ====================== */
+/* line 188, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+main:not(.t1) header h1 {
+	text-shadow: var(--hero-dropshadow);
+}
+
+/* line 192, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+input[type="checkbox"],
+input[type="radio"] {
+	accent-color: var(--stgr);
+	/* stinger */
+}
+
+/* line 198, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/color-base.scss */
+blockquote:before,
+blockquote:after {
+	color: var(--wgo);
+	/* web gold */
+}
+
+/*# sourceMappingURL=color-base.css.map */

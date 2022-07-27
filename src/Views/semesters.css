@@ -1,0 +1,93 @@
+/* local to this page */
+
+.page-schedule-home article ul {
+	flex-direction: column;
+	margin-bottom: 2rem;
+	background: var(--stgr);
+}
+.page-schedule-home article li {
+	height: calc(100vw * 0.3);
+	max-width: unset;
+}
+.page-schedule-home article li:nth-child(2) {
+	border-top: 1px solid var(--hgob);
+	border-bottom: 1px solid var(--hgob);
+}
+.page-schedule-home article li a {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	justify-content: center;
+	align-items: center;
+	/* background: var(--graymin); */
+	/* end pos */
+	/* presentation layer below *//
+}
+
+@media screen and (min-width: 768px) {
+	.page-schedule-home article ul {
+		flex-direction: row;
+	}
+	.page-schedule-home article li {
+		flex-basis: 33.333%;
+		/* flex-direction: column; */
+		height: 60vh;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		background-image: radial-gradient(circle, rgba(4,49,36,1) 0%, rgba(4,49,36,0.7) 30%, rgba(4,49,36,0) 100%);;
+	}
+	.page-schedule-home article li:nth-child(2) {
+		border: 0;
+		border-left: 1px solid var(--hgob);
+		border-right: 1px solid var(--hgob);
+	}
+}
+
+.page-schedule-home article li a[href] {
+	background-image: url(#);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity:1;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--white);
+	text-shadow: rgba(0, 0, 0, .8) 0 .125rem .25rem;
+	transition:	all 1s ease-in-out;
+}
+.page-schedule-home article li a[href*="fall"] {
+	background-image: url(https://www.csus.edu/newcsus2019-global-assets/_internal/images/schedule-app/fall-s.jpg);
+}
+.page-schedule-home article li a[href*="winter"] {
+	background-image: url(https://www.csus.edu/newcsus2019-global-assets/_internal/images/schedule-app/winter-s.jpg);
+}
+.page-schedule-home article li a[href*="spring"] {
+	background-image: url(https://www.csus.edu/newcsus2019-global-assets/_internal/images/schedule-app/spring-s.jpg);
+}
+@media screen and (min-width: 768px) {
+.page-schedule-home article li a[href*="fall"] {
+	background-position: 30% 60%;
+}
+.page-schedule-home article li a[href*="winter"] {
+	background-position: 55% 60%;
+}
+.page-schedule-home article li a[href*="spring"] {
+	background-position: 35% 60%;
+}
+}
+.page-schedule-home article li a[href]:hover,
+.page-schedule-home article li a[href]:focus  {
+	opacity:.5;
+}
+
+@media screen and (min-width:1400px) {
+		.page-schedule-home article ul {
+		border-radius: .5rem;
+		overflow: hidden;
+	}
+}

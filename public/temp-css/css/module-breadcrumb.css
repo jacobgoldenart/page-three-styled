@@ -1,0 +1,44 @@
+.breadcrumb {
+	display: none;
+}
+
+.breadcrumb ul {
+	display: flex;
+	gap: 1ch;
+}
+
+.breadcrumb li {
+	padding: 0;
+}
+.breadcrumb a {
+	color: var(--ssgr);
+	font-weight: normal;
+	font-weight: 500;
+	display: block;
+	font-size: 0.875rem;
+	text-decoration: none;
+	padding: calc(0.5rem + 6px) 1ch;
+	/* border: 1px solid var(--hgob); */
+	/* border-radius: 0.5rem; */
+	transition: all 1s ease-in-out;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+	color: var(--graydk);
+	text-decoration: underline;
+	/* background: var(--hgoblt); */
+	/* border: 1px solid var(--brz); */
+}
+
+@media screen and (min-width: 660px) {
+	.breadcrumb ul li a {
+		padding: calc(1rem + 6px) 2ch;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	/* line 30, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-breadcrumb.scss */
+	.breadcrumb ul {
+		padding: 0;
+	}
+}

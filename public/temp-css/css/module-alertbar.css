@@ -1,0 +1,126 @@
+@import url(override-alertbar.css);
+/* line 1, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar {
+  position: relative;
+  background: var(--wgo20a);
+  /* Alert Link Only */
+  /* 2 Alert Links ( used with Flex: div > a + a ) ) */
+  /* shares some styles from .alert-link above */
+}
+
+/* line 9, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-link {
+  top: 0;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 0.5rem 8px;
+  box-shadow: 0;
+}
+
+/* line 14, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-link a {
+  display: block;
+  background: #fff;
+  padding: 1rem 10%;
+  color: #555;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: #e6b711 solid 2px;
+}
+
+/* line 25, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-link a:hover, .alert-bar .alert-link a:focus {
+  background: #f9eecc;
+  /*border-bottom: #66582d solid 2px;*/
+}
+
+/* line 30, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-link a.alert-label {
+  font-size: 1.3rem;
+  color: #00573d;
+  font-weight: 700;
+  position: relative;
+}
+
+/* line 35, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-link a.alert-label:hover, .alert-bar .alert-link a.alert-label:focus {
+  color: #333;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 42, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-link a .alert-date {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* line 42, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-link a .alert-date {
+    display: inline;
+  }
+}
+
+/* line 49, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-link a .alert-date:hover {
+  text-decoration: none;
+}
+
+/* line 64, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-flex h2 {
+  text-align: center;
+}
+
+@media screen and (min-width: 560px) {
+  /* line 67, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-flex .two-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  /* line 67, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-flex .two-buttons {
+    padding: 1rem 5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 67, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-flex .two-buttons {
+    padding: 1rem 0;
+  }
+}
+
+/* line 80, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+.alert-bar .alert-flex .two-buttons a {
+  text-align: center;
+}
+
+@media screen and (min-width: 560px) {
+  /* line 80, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-flex .two-buttons a {
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    background: #fff;
+    border: #e6b711 solid 2px;
+    border-radius: 8px;
+  }
+  /* line 89, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-flex .two-buttons a:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  /* line 80, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/module-alertbar.scss */
+  .alert-bar .alert-flex .two-buttons a {
+    flex: 1 1 50%;
+  }
+}
+
+/*# sourceMappingURL=module-alertbar.css.map */

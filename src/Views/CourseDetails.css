@@ -1,0 +1,350 @@
+aside.breadcrumb {
+	display: flex;
+	position: relative;
+	background-color: var(--white);
+	position: relative;
+	gap: 1ch;
+	/* padding: 0; */
+	/* margin: 0; */
+	/* max-width: unset; */
+}
+
+aside.breadcrumb ul {
+	/* padding: 2em 5% 2rem; */
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+aside.breadcrumb ul li a {
+	padding: 1rem 2ch 1rem 0;
+}
+
+/* ========= */
+header div,
+aside.breadcrumb,
+[class*="page-schedule-details"] {
+	width: 90%;
+	max-width: calc(1400px - 8%);
+	padding: 0 0 2rem 0;
+	background-repeat: no-repeat;
+	background-attachment: top;
+	margin: 0 auto;
+}
+header div {
+	margin-top: 4rem;
+}
+/* @media screen and (min-width:1400px) {
+	header div,
+aside.breadcrumb,
+[class*="page-schedule-details"] {
+	margin: 0 auto;
+}
+} */
+[class*="page-schedule-details"] .toc-header {
+	display: block;
+}
+[class*="page-schedule-details"] .toc-header h1 {
+	font-size: 1.75rem;
+	line-height: 1.5;
+	margin-bottom: 0.5rem;
+}
+[class*="page-schedule-details"] .toc-header p {
+	font-size: 1.15rem;
+	line-height: 1.5;
+	color: var(--ssgr);
+	margin-bottom: 2rem;
+}
+/* ====== */
+
+[class*="page-schedule-details"] aside {
+	position: relative;
+	background: var(--wgolt);
+}
+
+[class*="page-schedule-details"] .toc-wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid var(--hgob);
+	border-radius: 8px;
+	margin-bottom: 2rem;
+}
+[class*="page-schedule-details"] .toc-wrapper li {
+	border: 1px solid var(--hgob);
+	border-radius: 0;
+	flex: 1 0 25%;
+	padding: 0;
+}
+[class*="page-schedule-details"] .toc-wrapper li a {
+	display: block;
+	background: var(--white);
+	padding: 1rem 1ch;
+	text-decoration: none;
+	white-space: nowrap;
+	border: 1px solid transparent;
+	transition: all 1s ease-in-out;
+}
+[class*="page-schedule-details"] .toc-wrapper li a:hover,
+[class*="page-schedule-details"] .toc-wrapper li a:focus {
+	background: var(--wgolt);
+	text-decoration: underline;
+}
+
+/* ========== */
+
+[class*="page-schedule-details"] .table-section {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+[class*="page-schedule-details"] .table-section > .table {
+	display: flex;
+	flex-direction: column;
+	background: var(--white);
+	border: 2px solid var(--wgo);
+	border-radius: 4px;
+	padding: 2rem;
+	margin: 0 auto 1rem;
+}
+[class*="page-schedule-details"] .table-section > .table h2 {
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	margin-bottom: 1rem;
+}
+[class*="page-schedule-details"] .table-section > .table h2 + p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.rdt_Table,
+.rdt_TableRow,
+.rdt_TableCol,
+.rdt_TableCol_Sortable,
+.rdt_TableCell,
+.rdt_TableHeader,
+.rdt_TableFooter,
+.rdt_TableHead,
+.rdt_TableHeadRow,
+.rdt_TableBody,
+.rdt_ExpanderRow {
+}
+
+.rdt_Table {
+	background: var(--white);
+	border: 2px solid var(--wgo);
+}
+.rdt_TableRow {
+}
+.rdt_TableCol {
+}
+.rdt_TableCol_Sortable {
+}
+
+.rdt_TableHeader {
+}
+.rdt_TableFooter {
+}
+.rdt_TableHead {
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--ssgr);
+}
+.rdt_TableHeadRow {
+	background: var(--wgolt);
+	border-bottom-color: var(--wgo);
+}
+.rdt_TableRow:not(:last-of-type) {
+	border-bottom-color: var(--wgo);
+}
+.rdt_TableHeadRow > div:first-of-type {
+	background: var(--wgomd);
+	background-size: 50%;
+}
+.rdt_TableCol,
+.rdt_TableCell {
+	padding: 0 2ch;
+	border-right: 1px solid var(--wgo);
+}
+.rdt_TableBody[role="rowgroup"] .rdt_TableRow > div:first-child {
+	border-right: 1px solid var(--wgo);
+}
+.rdt_TableBody[role="rowgroup"] .rdt_TableRow [id*="undefined"] {
+}
+.rdt_TableBody[role="rowgroup"] .rdt_TableRow [id*="undefined"] div:empty {
+	background: #ccc;
+}
+.rdt_ExpanderRow {
+	border-bottom: 1px solid var(--wgo);
+	background: var(--wgo20a);
+}
+
+.class-info-exp {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: start;
+	padding: 2rem;
+	flex-wrap: wrap;
+	flex-basis: 33.333%;
+}
+.class-info-exp p {
+	margin-left: 2rem;
+}
+.class-info-exp p span {
+	color: var(--stgr);
+	font-weight: 600;
+}
+
+/* ====== */
+
+[class*="page-schedule-details"] footer {
+	position: relative;
+	background: var(--wgolt);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid var(--hgob);
+	border-radius: 8px;
+}
+[class*="page-schedule-details"] footer div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem 5%;
+}
+[class*="page-schedule-details"] footer div h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+[class*="page-schedule-details"] footer div ul {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	gap: 1rem;
+}
+[class*="page-schedule-details"] footer div ul li {
+	position: relative;
+	margin-left: 4ch;
+	text-indent: -4ch;
+}
+
+[class*="page-schedule-details"] footer div ul li span {
+	display: block;
+	float: left;
+	margin-right: 1ch;
+	min-width: 3ch;
+	font-weight: 600;
+	color: var(--ssgr);
+}
+[class*="page-schedule-details"] footer div ul li:nth-of-type(even) span {
+}
+
+[class*="page-schedule-details"] footer .legend,
+[class*="page-schedule-details"] footer .attributes,
+[class*="page-schedule-details"] footer .session {
+}
+[class*="page-schedule-details"] footer .legend {
+}
+[class*="page-schedule-details"] footer .legend ul li {
+	margin-left: unset;
+	text-indent: unset;
+}
+[class*="page-schedule-details"] footer .attributes {
+}
+[class*="page-schedule-details"] footer .session {
+}
+
+[class*="page-schedule-details"] footer .legend ul li span {
+	display: block;
+	float: left;
+	margin-right: 2ch;
+	height: 3rem;
+}
+[class*="page-schedule-details"] footer .legend ul li:nth-of-type(even) span {
+	float: right;
+	margin-right: 0;
+	margin-left: 2ch;
+}
+[class*="page-schedule-details"] footer .legend ul li:first-child span {
+	background: url(http://www.csus.edu/dev/class_schedule/book-icon-big.png)
+		no-repeat top center;
+}
+[class*="page-schedule-details"] footer .legend ul li:nth-child(2) span {
+	background: url(http://www.csus.edu/dev/class_schedule/low-cost-book-icon-big.png)
+		no-repeat top center;
+}
+[class*="page-schedule-details"] footer .legend ul li:last-child span {
+	background: url(http://www.csus.edu/dev/class_schedule/zero-cost-book-icon-big.png)
+		no-repeat top center;
+}
+/* =========*/
+
+@media screen and (min-width: 640px) {
+	[class*="page-schedule-details"] .toc-wrapper {
+		gap: 1ch;
+		padding: 1rem;
+	}
+	[class*="page-schedule-details"] .toc-wrapper li {
+		border: none;
+		flex: 1;
+		padding: 0;
+	}
+	[class*="page-schedule-details"] .toc-wrapper li a {
+		border-radius: 4px;
+	}
+	[class*="page-schedule-details"] .toc-wrapper li a:hover,
+	[class*="page-schedule-details"] .toc-wrapper li a:focus {
+		border-color: var(--ssgr);
+	}
+
+	/* ======== */
+
+	[class*="page-schedule-details"] footer {
+		flex-direction: row;
+		flex: 1;
+		flex-wrap: wrap;
+		padding: 1rem 0;
+	}
+	[class*="page-schedule-details"] footer div {
+		width: unset;
+		display: block;
+		flex: 1;
+		gap: 1rem;
+		padding: 1rem 5%;
+	}
+	[class*="page-schedule-details"] footer .legend {
+		flex-basis: 100%;
+	}
+	[class*="page-schedule-details"] footer .attributes {
+	}
+	[class*="page-schedule-details"] footer .session {
+	}
+}
+
+/* ============== */
+
+@media screen and (min-width: 1000px) {
+	[class*="page-schedule-details"] footer {
+		flex: 1;
+		flex-wrap: nowrap;
+		padding: 2rem 5%;
+		align-items: flex-start;
+		gap: 5%;
+	}
+	[class*="page-schedule-details"] footer div {
+		width: 30%;
+		flex: 1 0 30%;
+		padding: unset;
+	}
+	[class*="page-schedule-details"] footer .legend {
+		flex-basis: unset;
+	}
+	[class*="page-schedule-details"] footer .attributes {
+	}
+	[class*="page-schedule-details"] footer .session {
+	}
+}

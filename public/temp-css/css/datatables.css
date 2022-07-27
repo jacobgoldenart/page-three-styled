@@ -1,0 +1,143 @@
+/**********************************************************
+ ***************** Data Tables Overrides ******************
+ **********************************************************/
+/* DataTable Wrapper  */
+/* line 6, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper {
+  margin-bottom: 3em;
+}
+
+/* Info Wrapper and Bottom area */
+/* line 11, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.one-column .info_wrapper,
+.one-column .bottom {
+  margin-top: 0.5em;
+  /* max-width: 90% */
+}
+
+/* line 16, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.info_wrapper .dataTables_info,
+.info_wrapper .dataTables_filter,
+.bottom .dataTables_length,
+.bottom .dataTables_paginate {
+  font-size: 0.95em;
+  font-weight: 400;
+  color: #333;
+}
+
+/* line 24, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.info_wrapper .dataTables_info {
+  line-height: 2em;
+  padding-top: 0.1em;
+}
+
+@media screen and (min-width: 641px) {
+  /* line 29, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+  .info_wrapper .dataTables_filter {
+    float: right;
+  }
+}
+
+/* Search Input & label */
+/* line 34, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_filter input:focus {
+  border: 2px solid #e6b711;
+}
+
+/* line 38, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .dataTables_filter label {
+  font-weight: 600;
+}
+
+/* Datatable Wrapper  */
+/* line 43, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .table-responsive,
+main.one-column-aside .dataTables_wrapper .table-responsive {
+  border-radius: 8px;
+  border: 2px solid #e6b711;
+}
+
+/* DataTable Overrides*/
+/* line 50, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .table-responsive table.dataTable,
+main.one-column-aside .table-responsive {
+  margin: unset;
+}
+
+/* line 54, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .table-responsive table.dataTable thead th,
+.dataTables_wrapper .table-responsive table.dataTable thead td,
+.dataTables_wrapper .table-responsive table.dataTable.no-footer {
+  border-bottom: 0;
+}
+
+/* line 59, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .table-responsive table.dataTable thead th,
+.dataTables_wrapper .table-responsive table.dataTable thead td {
+  padding-left: 10px;
+}
+
+/* line 63, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .table-responsive table.dataTable tbody th:nth-child(2),
+.dataTables_wrapper .table-responsive table.dataTable tbody td:nth-child(2) {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+/* Alternate row color update -- see main-t4-base.css:1087 */
+/* line 70, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.table-striped tbody tr:nth-of-type(2n+1) {
+  background-color: #f0edd2;
+}
+
+/* Fix for wierd 90% table wrapper vs table border */
+@media screen and (min-width: 1000px) {
+  /* line 76, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+  .t5.one-column .table-bordered,
+  .dataTables_wrapper .table-responsive,
+  .dataTables_wrapper .info_wrapper,
+  .dataTables_wrapper .bottom,
+  .one-column .dataTables_wrapper .bottom,
+  .one-column .info_wrapper {
+    width: 100%;
+    min-width: 75ch;
+  }
+}
+
+/* Button Style Overrides */
+/* line 89, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #00573d !important;
+  border: 1px solid #e6b711;
+  background: #fff;
+}
+
+/* line 96, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: #e6b711;
+}
+
+/* line 100, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #00573d;
+  color: #ffffff !important;
+  border-color: #00573d;
+}
+
+/* Bottom Dropdown alignment */
+/* line 107, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.bottom .dataTables_length label {
+  line-height: 2;
+  margin-top: 0.5em;
+}
+
+/* line 111, ../../../../../Volumes/cascade-managed/mengtest/web-mobile/_internal/scss/datatables.scss */
+.dataTables_wrapper .dataTables_length select {
+  border: 2px solid #e6b711;
+}
+
+/*# sourceMappingURL=datatables.css.map */
